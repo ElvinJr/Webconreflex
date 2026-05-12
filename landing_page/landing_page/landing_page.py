@@ -11,6 +11,7 @@ from landing_page.components.features import features_purple, features_one_click
 from landing_page.components.gallery import gallery
 from landing_page.components.pricing import pricing
 from landing_page.components.footer import footer
+from landing_page.components.login import login_page
 
 
 # ── Global styles ──────────────────────────────────────────────────────────────
@@ -87,4 +88,11 @@ app.add_page(
     route="/",
     title="Inflatable — Abstract 3D Illustrations for Figma & Blender",
     description="Stay creative with Inflatable. Premium 3D inflatable abstract illustrations with realistic materials for Figma and Blender. 30+ objects.",
+)
+
+app.add_page(
+    login_page,
+    route="/login",
+    title="Login — Inflatable",
+    description="Login to your Inflatable account.",
 )

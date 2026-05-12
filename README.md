@@ -15,7 +15,7 @@ La tarea consistía en:
 
 ## ⚙️ Lo que hicimos
 - Seleccionamos el diseño de referencia en **Landingfolio**.  
-- Reemplazamos imágenes decorativas (`yellow_donut`, `silver_flower`, `purple_blob`).  
+- Implementamos una página de **Login** con formulario visual y navegación interna.  
 - Implementamos la sección **Follow us** con enlaces funcionales:  
   - 📷 Instagram → [Perfil ElvinJr](https://www.instagram.com/elvinjr_?igsh=MWFtaWE1amN3bzEzcw==)  
   - 💡 Landingfolio → [Inspiración Inflatable](https://www.landingfolio.com/inspiration/post/inflatable?category=landing-page)  
