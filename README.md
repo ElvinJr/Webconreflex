@@ -24,5 +24,38 @@ La tarea consistía en:
 - Organizamos la estructura con Reflex (`navbar`, `hero`, `features`, `footer`).  
 - Documentamos el proceso y conclusiones en este README.
 
+## 🛠️ Instalación y Uso
+
+Sigue estos pasos para clonar y ejecutar el proyecto localmente:
+
+### Requisitos previos
+- **Python 3.11+**
+- **Node.js 18+** (necesario para el frontend de Reflex)
+- **Poetry** (gestor de dependencias de Python)
+
+### Pasos a seguir
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/ElvinJr/Webconreflex.git
+   cd Webconreflex
+   ```
+
+2. **Entrar a la carpeta del proyecto:**
+   ```bash
+   cd landing_page
+   ```
+
+3. **Instalar dependencias con Poetry:**
+   ```bash
+   poetry install
+   ```
+
+4. **Ejecutar la aplicación en modo desarrollo:**
+   ```bash
+   poetry run reflex run
+   ```
+   *La aplicación estará disponible por defecto en `http://localhost:3000`.*
+
 ## 🌟 Resultado
 Una landing page funcional y organizada, que replica un diseño profesional con Reflex y demuestra el uso de buenas prácticas de frontend.
