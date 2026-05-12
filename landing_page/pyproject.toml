@@ -1,0 +1,19 @@
+[project]
+name = "landing-page"
+version = "0.1.0"
+description = "Inflatable 3D Illustrations Landing Page - Reflex Clone"
+authors = [
+    {name = "ElvinJr", email = "elvinarmando.inoaromero@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "reflex>=0.7.0",
+]
+
+[tool.poetry]
+packages = [{include = "landing_page"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
